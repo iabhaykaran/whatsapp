@@ -2,7 +2,7 @@ const Data = [
   {
     name: "Elon Musk",
     image: "elon.jpg",
-    message:"Sir Hafta Bhijwa dia hai",
+    message:"Hello Elon Here",
   },
   {
     message:"typing...",
@@ -11,39 +11,39 @@ const Data = [
   },
   {
     name: "Kejriwal",
-    message:"mai jail me hu  please help",
+    message:"We will Clean Yamuna",
     image: "keji.jpg",
   },
   {
     name: "Naredra Modi",
-    message:"Bhai chunaav k lie Chanda de dijiye",
+    message:"Abki Baar 400 Paar",
     image: "modi.jpg",
   },
 
   {
     name: "Vladimir putin",
-    message:"Russia Kab aoge bhai ?",
+    message:"I love India",
     image: "putin.jpg",
   },
   {
     name: "Donald Trump",
-    message:"Is baar jitwa dijie Bhaiya La apka",
+    message:"HowD Modi",
     image: "trump.jpg",
   },
  
   {
     name: "Brazilian President",
-    message:"Bhai vevastha saam tak pahuch jaegi...",
+    message:"Hello From Brazil",
     image: "brazil.jpg",
   },
   {
     name: "Supreme court CJI",
-    message:"Bhai Ramdev ko lapet dia agla btaiye?",
+    message:"What about Right to Privacy?",
     image: "cji.jpg",
   },
   {
     name: "Kim Jong Un",
-    message:"Bhai Pakistan nipta du kya ?",
+    message:"Hahaha?",
     image: "kim.jpg",
   },
  
