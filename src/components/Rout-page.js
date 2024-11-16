@@ -8,7 +8,7 @@ import "../App.css";
 import Chatpage from "./chatpage";
 import Updatepage from "./update-page";
 import NoPage from "./NoPage";
-// import Callspage from "./call-page";
+ import Callspage from "./call-page";
 import MsgPage from "./msg";
 import Profile from "./Profile";
 // import { useState } from "react";
@@ -22,7 +22,7 @@ export default function Routepage() {
           <Route index element={<Chatpage />} />
           <Route exact path="/" element={<Chatpage />}></Route>
           <Route exact path="/updates" element={<Updatepage />}/>
-          {/* <Route exact path="/calls" element={<Callspage />}></Route> */}
+          <Route exact path="/calls" element={<Callspage />}></Route>
           <Route exact path="/msg" element={<MsgPage />}></Route>
           <Route exact path="/profile" element={<Profile />}></Route>
           <Route path="*" element={<NoPage />} />
@@ -40,6 +40,14 @@ export default function Routepage() {
             <li>
               <NavLink to="/profile">Profile</NavLink>
             </li>
+
+
+ <li>
+              <NavLink to="/calls">Calls</NavLink>
+            </li>
+
+
+
           </ul>
         </nav>
       </Router>
